@@ -1,0 +1,28 @@
+# VCS / IDE
+.git
+.github
+.vscode
+.idea
+
+# Dependencies / build outputs
+node_modules
+.next
+out
+coverage
+
+# Local env / logs
+.env
+.env.*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Caches / OS files
+.DS_Store
+
+# Docs and dev-only artifacts
+README.md
+agent-transcripts
+terminals
